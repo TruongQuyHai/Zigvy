@@ -1,0 +1,22 @@
+.defaultLayout {
+  background: none;
+  @media (min-width: 980px) {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.header {
+  padding: 0;
+  color: initial;
+  background: none;
+
+  .pageHeader {
+    padding: 16px 24px;
+  }
+}
+
+.content {
+  padding: 16px 24px;
+}
